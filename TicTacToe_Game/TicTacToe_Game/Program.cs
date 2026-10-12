@@ -12,6 +12,7 @@ int count = 0;
 while (true)
 {
     ShowBoard(board);
+
     Console.WriteLine($"플레이어 {Player} 차례입니다.");
     Console.Write("위치를 선택하세요(1~9): ");
     string input = Console.ReadLine();
